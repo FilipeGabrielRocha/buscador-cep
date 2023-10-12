@@ -65,7 +65,8 @@
     flex-direction: column;
     background-color: #fff;
     width: 500px;
-    border: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .main h2 {

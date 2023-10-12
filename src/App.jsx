@@ -48,7 +48,7 @@ function App() {
         <main className="main">
           <h2>CEP: {cep.cep}</h2>
           <span>Rua: {cep.logradouro}</span>
-          <span>Complemento: {cep.complemento}</span>
+          <span>Complemento: {cep.complemento !== "" ? cep.complemento : "Sem complemento"}</span>
           <span>Bairro: {cep.bairro}</span>
           <span>
             Cidade: {cep.localidade} - {cep.uf}
